@@ -28,6 +28,10 @@ return {
         },
         capabilities = capabilities,
       }
+
+      lspconfig.rnix.setup {
+        settings = {},
+      }
     end,
     dependencies = { "hrsh7th/cmp-nvim-lsp" },
   },
